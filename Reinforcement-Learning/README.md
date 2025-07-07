@@ -3,8 +3,6 @@
 
 This project implements three reinforcement learning scenarios using a gridworld environment based on the classic Four Rooms domain.
 
----
-
 ## Setup  
 1. run `make venv`
 2. run `. venv/bin/activate`
