@@ -26,3 +26,9 @@ Implements and evaluates reinforcement learning agents in GridWorld-style enviro
 - **Evaluation:** Tracks episodic returns and learning curves
 
 #### Screenshot of RL agent
+---
+| Output 1 | Output 2 |
+|----------|----------|
+| ![Example output 1](./screenshots/scrn1.png) | ![Example output 2](./screenshots/scrn2.png) |
+---
+
