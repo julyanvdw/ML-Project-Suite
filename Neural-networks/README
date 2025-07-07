@@ -1,0 +1,34 @@
+MACHINE LEARNING - NN ASSIGNMENT
+
+Files Contained:
+----------------
+1. MLP.py
+2. CNN.py 
+3. RESNET.py 
+4. makefile
+5. requirements.txt
+
+TO INSTANTIATE THE PYTHON VIRTUAL ENV
+--------------------------------------
+1. make venv
+2. . venv/bin/activate
+3. make install
+
+You should now be in the python virtual environment with all required packages installed
+Note: to get out of the env, type "deactivate" 
+
+TO RUN
+-------
+Usage: python <script>
+where <script> = [MLP.py, CNN.py, RESENT.py]
+
+MODEL PERFORMANCE
+-----------------
+Each model has been parameter tuned so that they reach a certain performance. 
+Note the use of a seed when generating random weights have been used to ensure that 
+the parameters can be more reliably and specifically tuned. Listed here are the maximum performances'
+each model attains throughout the 15 training epochs
+
+MLP -> 59.5%
+CNN -> 67.52%
+RESENT -> 70.54%
