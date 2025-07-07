@@ -1,29 +1,22 @@
-MACHINE LEARNING - RL ASSIGNMENT
 
-Files Contained:
-----------------
-1.FourRooms.py
-2.makefile
-3.requirements.txt
-4.README
-5.Scenario1.py
-6.Scenario2.py
-7.Scenario3.py
+# Reinforcement Learning – Four Rooms Assignment
 
-TO INSTANTIATE THE PYTHON VIRTUAL ENV
---------------------------------------
-1. make venv
-2. . venv/bin/activate
-3. make install
+This project implements three reinforcement learning scenarios using a gridworld environment based on the classic Four Rooms domain.
+
+---
+
+## Setup  
+1. run `make venv`
+2. run `. venv/bin/activate`
+3. run `make install`
 
 You should now be in the python virtual environment with all required packages installed
 Note: to get out of the env, type "deactivate" 
 
-TO RUN
--------
-Usage: python <script> [-stochastic]
-where <script> = [Scenario1.py, Scenario2.py, Scenario3.py]
-and [-stochastic] is optional
+## Usage
+run `python <script> [-stochastic]`
+where `<script>` = [Scenario1.py, Scenario2.py, Scenario3.py]
+and `[-stochastic]` is optional
 
 GENERAL
 --------
